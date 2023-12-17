@@ -22,9 +22,8 @@ public class TestMain {
 	  @Test
 	  public void testMain1() {
 		// input:"abcx" (provided through args)
-		// output: "pure name"
-		  
-		String[] simulatedArgs = {"abcx"};
+		// output: "pure name"	  
+		
 		
 	    exit.expectSystemExitWithStatus(0);
 	    exit.checkAssertionAfterwards(new Assertion() {
